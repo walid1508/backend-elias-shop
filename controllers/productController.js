@@ -34,7 +34,6 @@ const getSingleProduct = async (req, res) => {
     res.json(product)
 }
 
-
 // @desc Create new Product
 // @route POST /products
 const createNewProduct = async (req, res) => {
@@ -46,16 +45,53 @@ const createNewProduct = async (req, res) => {
     // Create new Product
     const product = await Product.create({ name, price, description, slug })
 
+    if (!product) {
+        return res.status(400).json({ message: 'Product creation failed' })
+    }
+
     res.status(201).json(product)
 }
 
+// @desc Update Product
+// @route PUT /products/:slug
+const updateProduct = async (req, res) => {
+    const { slug } = req.params
+    const { name, price, description } = req.body
 
+    // Find product by slug and update
+    const product = await Product.findOneAndUpdate({ slug }, { name, price, description }, { new: true })
+
+    // If no product
+    if (!product) {
+        return res.status(400).json({ message: 'No product found' })
+    }
+
+    res.json(product)
+}
+
+// @desc Delete Product
+// @route DELETE /products/:slug
+const deleteProduct = async (req, res) => {
+    const { slug } = req.params
+
+    // Find product by slug and delete
+    const product = await Product.findOneAndDelete({ slug })
+
+    // If no product
+    if (!product) {
+        return res.status(400).json({ message: 'No product found' })
+    }
+
+    res.json(product)
+}
 
 
 module.exports = {
     getAllProducts,
     createNewProduct,
-    getSingleProduct
+    getSingleProduct,
+    updateProduct,
+    deleteProduct
 }
 
 

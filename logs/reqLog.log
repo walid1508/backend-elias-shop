@@ -17,3 +17,16 @@
 20240501	21:22:41	83f19b7c-42b9-4017-a329-cfad28d4d63b	GET	/products/pomme-de-terre	undefined
 20240501	21:22:42	c47d8b3b-dfd5-490f-9da1-b150072ed9df	GET	/products/pomme-de-terre	undefined
 20240501	21:22:49	f4f292aa-0d60-415c-be06-b63de81cb4cd	GET	/products/	undefined
+20240501	22:32:59	70f041cb-62fb-4e9d-a6a5-28cffab51e4e	DELETE	/products/pain-1	undefined
+20240501	22:33:11	64a02784-6f06-4877-a98c-a96617126909	GET	/products/pain-1	undefined
+20240501	22:33:22	3389ec2d-c4fc-4f60-af6f-6d2c370d0c05	GET	/products/	undefined
+20240501	22:37:22	1d673b90-13a9-476b-9e15-3c4a35ae9038	POST	/products/	undefined
+20240501	22:37:32	9a83d53c-a3d2-499b-9fae-5e82866b4408	GET	/products/	undefined
+20240501	22:41:41	ca09a821-3031-4a44-ba75-ddae2d37db1b	PATCH	/products/pomme-de-terre	undefined
+20240501	22:42:22	61a45e59-8573-49df-894c-8d4c56eca0bd	GET	/products/pomme-de-terre	undefined
+20240501	22:42:31	22c9fbb5-1911-4fd5-9e71-119854c2d84b	PUT	/products/pomme-de-terre	undefined
+20240501	22:42:42	ce7d4625-8eac-43e2-bd95-478fcfa8d48e	GET	/products/pomme-de-terre	undefined
+20240501	22:42:51	b1509a5b-8278-40cb-807b-36303897f3a4	GET	/products/	undefined
+20240501	22:47:10	0b3106d9-3fc1-48db-a979-8cbfab122ffd	GET	/	undefined
+20240501	22:47:10	0e0f7723-ba90-4227-894d-ee0b0d6eb3a9	GET	/css/style.css	undefined
+20240501	22:47:11	e1946282-60fc-46e0-af4a-84c4d1554f8a	GET	/favicon.ico	undefined
