@@ -6,3 +6,14 @@
 20240501	18:49:08	52e6bc57-1ee0-4840-82f6-654181309525	GET	/public/css/style.css	undefined
 20240501	18:49:23	94d034b9-2783-4fde-b6d5-ca288421255e	GET	/	undefined
 20240501	18:49:23	cd88c7e4-8dc4-4306-b034-1df94b1852dc	GET	/css/style.css	undefined
+20240501	21:18:49	fdccb7f2-31d3-4003-a1ad-5aa316ba4901	POST	/products	undefined
+20240501	21:20:34	bc6cd760-89f5-479f-91bb-44d1387e12dc	GET	/	undefined
+20240501	21:20:34	fa678c17-8b91-4076-88e1-1be3e5db589b	GET	/css/style.css	undefined
+20240501	21:20:48	a9069727-2fa1-4643-ad01-7ffddf44c225	POST	/products	undefined
+20240501	21:22:10	be26197e-66a7-42d8-8f18-223cc91b43c7	POST	/products	undefined
+20240501	21:22:35	c8ca91c2-d9ff-4d41-a8e0-1ea036857160	GET	/products/pomme-de-terre	undefined
+20240501	21:22:39	32eaa719-92ff-4029-922a-e67524c29f42	GET	/products/pomme-de-terre	undefined
+20240501	21:22:40	3ecfd237-0b63-4a79-a6c8-d9a92a8919fb	GET	/products/pomme-de-terre	undefined
+20240501	21:22:41	83f19b7c-42b9-4017-a329-cfad28d4d63b	GET	/products/pomme-de-terre	undefined
+20240501	21:22:42	c47d8b3b-dfd5-490f-9da1-b150072ed9df	GET	/products/pomme-de-terre	undefined
+20240501	21:22:49	f4f292aa-0d60-415c-be06-b63de81cb4cd	GET	/products/	undefined

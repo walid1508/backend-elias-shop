@@ -10,6 +10,10 @@ const productSchema = new mongoose.Schema({
         trim: true,
         maxlength: [50, 'Name can not be more than 50 characters']
     },
+    slug: {
+        type: String,
+        required: false,
+    },
     price: {
         type: Number,
         required: [true, 'Please add a price'],
@@ -26,6 +30,8 @@ const productSchema = new mongoose.Schema({
     }
 });
 
+
 productSchema.plugin(AutoIncrement, {inc_field: 'product_id'});
 
 module.exports = mongoose.model('Product', productSchema);
+
